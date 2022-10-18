@@ -7,9 +7,9 @@
 
 
 import Foundation
-class Meme_Helper
+class Emoji_Helper
 {
-   static  private let urlSring = "https://api.artic.edu/api/v1/artworks";
+   static  private let urlSring = "https://emojihub.herokuapp.com/api/random";
    static  private let session:URLSession =
     {
     let config = URLSessionConfiguration.default
