@@ -15,9 +15,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func btn_AretData(_ sender: Any) {
+        Meme_Helper.fetchDir()
     }
     
     @IBAction func btn_GorestData(_ sender: Any) {
+        Grost_Helper.fetchDir()
     }
     @IBAction func btn_MemeData(_ sender: Any) {
     }
