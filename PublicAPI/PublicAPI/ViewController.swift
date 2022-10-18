@@ -14,6 +14,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func btn_AretData(_ sender: Any) {
+    }
+    
+    @IBAction func btn_GorestData(_ sender: Any) {
+    }
+    @IBAction func btn_MemeData(_ sender: Any) {
+    }
 }
 
